@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @font-face {
+            font-family: LatoRegular;
+            src: url(./Lato-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: DayRoman;
+            src: url(./DAYROM__.ttf);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style/styleorigin.css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./IMG/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>TATENEN</title>
+
+</head>
+<!--MEDIDAS: PC: 1024 TABLET: 768 MOVIL: 320 -->
+
+<body>
+    <header>
+        <div class="fixed-top background A1">
+            <nav class="container my-3 d-flex align-items-center justify-content-between">
+                <img width="15%" src="./IMG/VARIABLE DEL LOGO.png" alt="" srcset="">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Proyecto">Proyecto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#GroundWater">GroundWater Troll</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contactanos">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/+573012497450" target="_blank"><img
+                                src="./IMG/Iconos/Nuevos/NAV/Recurso 2icons.png" alt="" srcset=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.facebook.com/profile.php?id=100092714514076"
+                            target="_blank"><img src="./IMG/Iconos/Nuevos/NAV/Recurso 3icons.png" alt="" srcset=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://instagram.com/tatenen023?igshid=MzRlODBiNWFlZA=="
+                            target="_blank"><img src="./IMG/Iconos/Nuevos/NAV/Recurso 4icons.png" alt="" srcset=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="fixed-top background A2">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid d-flex">
+                    <img width="50%" src="./IMG/VARIABLE DEL LOGO.png" alt="" srcset="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Proyecto">Proyecto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#GroundWater">GroundWater Troll</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#Contactanos">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="mt-7">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./IMG/Ilustraciones_slider/Slider1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <p class="text-black fs-4">"Cuidemos las aguas subterráneas, ya que ellas cuidan el
+                                ecosistema".</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/Ilustraciones_slider/Slider2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <p class="text-white fs-4">"Demos atención a los lagos, manantiales y ríos, ya que ellos se
+                                conectan con las aguas
+                                subterráneas".</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/Ilustraciones_slider/Slider3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <p class="text-white fs-4">"Creemos en la transformación de las depuradoras en fábricas de
+                                agua". <br> -Coral
+                                Robles.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/Ilustraciones_slider/Slider4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <p class="text-white fs-4">"El reto de poder controlar lo que desechamos es tener una
+                                conciencia más razonable".</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container proyecto" id="Proyecto">
+
+        <h2 class="my-5">
+            PROYECTO
+        </h2>
+
+        <div class="row maincontainer">
+            <div class="col-4 thecard">
+                <div class="thefront1">
+
+                </div>
+
+                <div class="theback">
+                    <h2>
+                        CONTEXTO
+                    </h2>
+                    <p>
+                        Las aguas subterráneas son acuíferos o pozos de aguas que se encuentran debajo de la tierra y se
+                        llenan por medio de la filtración de agua y gracias a esto se crean los manantiales que ayudan
+                        tanto
+                        a los animales como a los humanos ya que representa el 43% del agua consumida por el ser humano
+                        y
+                        animales, la contaminación de estas aguas provocan un cambio fuerte en el ecosistema.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-4 thecard abajo">
+                <div class="thefront2">
+
+                </div>
+
+                <div class="theback">
+                    <h2>
+                        OBJETIVOS
+                    </h2>
+                    <p>
+                        Dar a conocer en nuestras plataformas, investigación más profunda sobre las aguas subterráneas
+                        haciendo uso de medios audiovisuales como un videojuego, con esto el proyecto TATENEN quiere
+                        generar conciencia sobre los riesgos de la contaminación.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row maincontainer">
+            <div class="col-4 thecard mt-3 abajo3">
+                <div class="thefront4">
+
+                </div>
+
+                <div class="theback">
+                    <h2>
+                        PROBLEMÁTICA
+                    </h2>
+                    <p>
+                        Las aguas subterráneas se pueden contaminar por filtración de sustancias almacenadas bajo tierra
+                        o disolución de ellas.
+                        Hay 4 tipos de contaminantes:
+                        La ganaderia masiva o fertilizantes,
+                        La agricultura con abonos realizados con heces,
+                        La industria con descargas ácidas de metales, cianuros y materiales radiactivos,
+                        La mineria hace que se libere sulfuro que se convierte en ácido sulfúrico altamente dañino.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-4 thecard abajo2">
+                <div class="thefront3">
+
+                </div>
+
+                <div class="theback">
+                    <h2>
+                        SERVICIOS
+                    </h2>
+                    <p>
+                        Nos gustaría ofrecerle consejos al usuario para detectar si su entorno indica señales de agua
+                        subterránea, ofreciendo a la persona el conocimiento e información requeridos para poder brindar
+                        al cliente el conocimiento e información necesarios para que se puedan considerar las
+                        necesidades esenciales para la toma de decisiones y coordinación durante y después del proceso
+                        que se llevó a cabo con la empresa armadril.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container team margin-top">
+        <h2 class="my-5">
+            INTEGRANTES
+        </h2>
+
+        <div class="row">
+            <div class="col-4">
+                <img width="65%" class="d-flex m-auto" src="./IMG/Integrantes/Fotos-02.png"
+                    onmouseover="this.src='./IMG/Integrantes/Juan-unscreent.gif'"
+                    onmouseout="this.src='./IMG/Integrantes/Fotos-02.png'" width="290px" alt="" srcset="">
+
+
+
+                <div class="col-4 text-center boton1">
+                    <p>
+                        Juan David Holguín Betancur
+                    </p>
+                    <a href="" class="boton">
+                        Animador
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+                <img width="65%" class="d-flex m-auto" src="./IMG/Integrantes/Fotos-04.png"
+                    onmouseover="this.src='./IMG/Integrantes/MANUELA_CORONADO.gif'"
+                    onmouseout="this.src='./IMG/Integrantes/Fotos-04.png'" width="190px" alt="" srcset="">
+
+
+
+                <div class="col-4 text-center boton1">
+                    <p>
+                        Manuela Coronado Hernández
+                    </p>
+                    <a href="" class="boton">
+                        Diseño web
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+                <img width="65%" class="d-flex m-auto" src="./IMG/Integrantes/Fotos-03.png"
+                    onmouseover="this.src='./IMG/Integrantes/KAROLZ_CORREA.gif'"
+                    onmouseout="this.src='./IMG/Integrantes/Fotos-03.png'" width="190px" alt="" alt="" srcset="">
+
+
+                <div class="col-4 text-center boton1">
+                    <p>
+                        Karolz Correa Berrio
+                    </p>
+                    <a href="" class="boton">
+                        Ilustradora
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row botones2">
+            <div class="col-4 text-center">
+                <p>
+                    Juan David Holguín Betancur
+                </p>
+                <a href="" class="boton">
+                    Animador
+                </a>
+            </div>
+            <div class="col-4 text-center">
+                <p>
+                    Manuela Coronado Hernández
+                </p>
+                <a href="" class="boton">
+                    Diseño web
+                </a>
+            </div>
+            <div class="col-4 text-center">
+                <p>
+                    Karolz Correa Berrio
+                </p>
+                <a href="" class="boton">
+                    Ilustradora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="GroundWater-Troll bg-img " id="GroundWater">
+        <h2>
+            <img class="my-5" src="./IMG/Ilustraciones pop up/Logo-videojuego.png" alt="" srcset="">
+        </h2>
+
+        <div class="row container mt-5">
+            <div class="col-3 bg-white mx-5 p-5 box ultima">
+                <h5>
+                    ¿Qué es?
+                </h5>
+
+                <p>
+                    GroundWater Troll es un juego web en dónde te encuentras en una aventura sobre las aguas
+                    subterráneas y aprendemos sobre ellas y cómo afecta al medio ambiente.
+                </p>
+
+            </div>
+            <div class="col-3 bg-white mx-5 p-5 box ultima">
+                <h5>
+                    ¿Por qué Jugar?
+                </h5>
+
+                <p>
+                    Conviértete en un explorador y contribuye al cuidado de las aguas subterráneas.
+                </p>
+
+                <a class="align-bottom boton-inf" target="_blank" href="https://groundwater-troll.itch.io/groundwater-troll">
+                    Jugar
+                </a>
+            </div>
+            <div class="col-3 bg-white mx-5 p-5 box ultima">
+                <h5>
+                    Actualizaciones
+                </h5>
+
+                <p>
+                    Tenemos varias formas de juego para que te diviertas.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container pitchbook mb-5" id="Contactanos">
+        <div class="row justify-content-center gap-5">
+            <div class="col-4">
+
+                <h2 class="my-5">
+                    PITCHBOOK
+                </h2>
+
+                <iframe class="scribd_iframe_embed" title="Pitchbook Tatenen"
+                    src="https://www.scribd.com/embeds/642323038/content?start_page=1&view_mode=slideshow&access_key=key-zU12YDl7msZRVCFTJDRQ"
+                    tabindex="0" data-auto-height="false" data-aspect-ratio="0.7333333333333333" scrolling="no"
+                    width="100%" height="800" frameborder="0"></iframe>
+            </div>
+
+            <div class="col-4">
+                <h2 class="my-5">
+                    CONTÁCTANOS
+                </h2>
+
+                <form action="">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput2">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Dejános tu opinión.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-color">
+        <div class="container py-5">
+            <p class="text-white text-center width d-flex">
+                ¿Tienes alguna duda, sugerencia, petición o reclamo?
+                Comunícate en cualquiera de nuestros medios de comunicación.
+            </p>
+
+            <div class="row justify-content-center mt-4">
+                <div
+                    class="col-2 bg-white d-flex justify-content-center p-2 align-items-self-end m-3 border-radius resp">
+                    <img src="./IMG/Iconos/Nuevos/Recurso 5icons.png" alt="">
+                    <p class="mx-3">
+                        <a href="mailto:Tatenen23@gmail.com" target="_blank">
+                            Tatenen23@gmail.com
+                        </a>
+
+                    </p>
+                </div>
+
+                <div
+                    class="col-2 bg-white d-flex justify-content-center p-2 align-items-self-end m-3 border-radius resp">
+                    <img src="./IMG/Iconos/Nuevos/Recurso 6icons.png" alt="">
+                    <p class="mx-3">
+                        <a href=" tel://6044926378" target="_blank">
+                            (604) 492 63 78
+                        </a>
+
+                    </p>
+                </div>
+
+                <div
+                    class="col-2 bg-white d-flex justify-content-center p-2 align-items-self-end m-3 border-radius resp">
+                    <img src="./IMG/Iconos/Nuevos/Recurso 7icons.png" alt="">
+                    <p class="mx-3">
+                        <a href="https://wa.me/+573012497450" target="_blank">
+                            +57 301 2497450
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div
+                    class="col-2 bg-white d-flex justify-content-center p-2 align-items-self-end m-3 border-radius resp">
+                    <img src="./IMG/Iconos/Nuevos/Recurso 8icons.png" alt="">
+                    <p class="mx-3">
+                        <a href="https://www.instagram.com/tatenen023/" target="_blank">
+                            @Tatenen023
+                        </a>
+
+                    </p>
+                </div>
+
+                <div
+                    class="col-2 bg-white d-flex justify-content-center p-2 align-items-self-end m-3 border-radius resp">
+                    <img src="./IMG/Iconos/Nuevos/Recurso 9icons.png" alt="">
+                    <p class="mx-3">
+                        <a href="https://www.facebook.com/profile.php?id=100092714514076" target="_blank">
+                            Tatenen Medellin
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-color Copyright mt-1">
+        <p>
+            @Copyright - Tatenen 2023
+        </p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./JS/code.js"></script>
+    <script src="./JS/bd.js"></script>
+</body>
+
+</html>
